@@ -4146,7 +4146,7 @@ footer:not(.light) .footer-content .tag a,
 }
 .header-top .social-links li a {
 	border: none;
-	width: 25px;
+	width: 40px;
 	height: 30px;
 	color: #999999;
 	background-color: transparent;
@@ -4276,6 +4276,13 @@ footer:not(.light) .footer-content .tag a,
 	border-color: #f74425;
 	color: #fff;
 }
+
+.header-top .social-links li.pkulink a:hover {
+	color: #2196f3;
+	background-color: transparent;
+	border-color: transparent;
+}
+
 .header-top .social-links li.twitter a:hover {
 	color: #55acee;
 	background-color: transparent;
@@ -4384,7 +4391,7 @@ footer:not(.light) .footer-content .tag a,
 .social-links .dropdown-menu {
 	z-index: 103;
 	padding: 0px;
-	min-width: 290px;
+	min-width: 310px;
 	margin-top: 1px;
 	font-size: 0;
 	box-shadow: none;
