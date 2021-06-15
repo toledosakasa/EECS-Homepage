@@ -3796,6 +3796,7 @@ a.overlay.small i {
 	.logo img,
 	.header-small .logo img {
 		margin: 0 auto;
+		width: 130px;
 	}
 	.site-slogan {
 		text-align: center;
