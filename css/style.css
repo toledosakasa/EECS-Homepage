@@ -791,6 +791,9 @@ tbody {
 	.fixed-header-on.boxed .header.fixed {
 		width: 970px;
 	}
+	.fixed-header-on .header .logo img{
+		height: 60px;
+	}
 }
 
 /* Large devices (Large desktops 1200px and up) */
