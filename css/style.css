@@ -4877,6 +4877,11 @@ ul.tweets li span {
 .slider-banner-fullscreen>ul {
 	display: none;
 }
+
+.slider-banner li{
+	cursor:pointer
+}
+
 .tp-loader.spinner0 {
 	background: url("../images/loader.gif") no-repeat center center;
 	box-shadow: none;
