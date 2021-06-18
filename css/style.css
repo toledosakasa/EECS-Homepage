@@ -801,13 +801,16 @@ tbody {
 }
 
 /* Medium devices (desktops, tablets, 992px and up) */
-@media (min-width: 992px) {
-  .fixed-header-on .header .logo {
-    display: block;
-  }
-  .fixed-header-on.boxed .header.fixed {
-    width: 970px;
-  }
+@media (min-width:992px) {
+	.fixed-header-on .header .logo {
+		display: block;
+	}
+	.fixed-header-on.boxed .header.fixed {
+		width: 970px;
+	}
+	.fixed-header-on .header .logo img{
+		height: 60px;
+	}
 }
 
 /* Large devices (Large desktops 1200px and up) */
@@ -3816,14 +3819,15 @@ a.overlay.small i {
 }
 
 /* Medium devices (desktops, tablets less than 991px) */
-@media (max-width: 991px) {
-  .logo img,
-  .header-small .logo img {
-    margin: 0 auto;
-  }
-  .site-slogan {
-    text-align: center;
-  }
+@media (max-width:991px) {
+	.logo img,
+	.header-small .logo img {
+		margin: 0 auto;
+		width: 130px;
+	}
+	.site-slogan {
+		text-align: center;
+	}
 }
 
 /* Call to action
@@ -4897,6 +4901,11 @@ ul.tweets li span {
 .slider-banner-fullscreen > ul {
   display: none;
 }
+
+.slider-banner li{
+	cursor:pointer
+}
+
 .tp-loader.spinner0 {
   background: url("../images/loader.gif") no-repeat center center;
   box-shadow: none;
