@@ -5279,3 +5279,13 @@ ul.tweets li span {
 .box-shadow:hover {
   box-shadow: #888888;
 }
+
+.xuegong{
+	transition: all 0.5s ease .1s;
+}
+.xuegong:hover{
+	transform: scale(1.05);
+}
+.xuegong img{
+	cursor: pointer;
+}
